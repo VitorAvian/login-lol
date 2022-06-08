@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+:root {
+    --white: #fff;
+    --whitesmoke: #f9f9f9;
+    --light-grey: #ececec;
+    --light-dark-grey: #e6e6e6;
+    --grey: #c4c4c4;
+    --medium-grey: #a7a7a7;
+    --deep-grey: #343434;
+    --black: #000000;
+    --blue: #1b77f3;
+    --red: #cf3c3f;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    max-width: 600px;
+    padding: clamp(40px, 8%, 70px);
+}
+
+.login-logo {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 160px;
+}
+
+.login-title {
+    color: var(--deep-grey);
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.login-label {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.login-label span {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: var(--medium-grey);
+    margin: 25px;
+    cursor: text;
+    user-select: none;
+    transition: all 300ms;
+
+}
+
+.login-label:hover .input{
+    background-color: var(--light-dark-grey) ;
+}
+
+.login-label:hover span{
+    color: #878787;
+}
+
+.input {
+    width: 100%;
+    border: 3px solid rgba(0, 0, 0, 0);
+    background-color: var(--light-grey);
+    padding: 25px 10px 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: var(--black);
+    outline: none;
+    transition: all 300ms;
+}
+
+.input.input:focus {
+    background-color: var(--whitesmoke);
+    border: 3px solid var(--deep-grey);
+}
+
+
+.wallpaper {
+    width: 100%;
+    background-image: url('./img/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
