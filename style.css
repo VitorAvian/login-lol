@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     user-select: none;
-
+    letter-spacing: 0.05em;
 }
 
 main {
@@ -59,6 +59,7 @@ main {
     color: var(--deep-grey);
     font-size: 2em;
     margin-bottom: 30px;
+    letter-spacing: 0.03em;
 }
 
 .login-label {
@@ -78,7 +79,6 @@ main {
     cursor: text;
     user-select: none;
     transition: all 200ms;
-
 }
 
 .login-label .span-active {
