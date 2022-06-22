@@ -1,5 +1,5 @@
 # Tela de login League of Legends
-## Projeto para treinar HTML/CSS e Javascript 
+## Mini projeto para treinar HTML/CSS e Javascript 
 
 Utilizando conceitos básicos de HTML/CSS e Javascript para reproduzir a tela de login do jogo League of Legends.
 
